@@ -1,0 +1,124 @@
+.nav-belt {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #131921;
+  padding: 10px 20px;
+}
+
+/* ######### nav-left ######### */
+.nav-left {
+  align-items: center;
+}
+.amazonLogo {
+  width: 99px;
+}
+
+.nav-global-location {
+  margin-left: 10px;
+  align-items: end;
+}
+.nav-global-location .deliver {
+  color: #ccc;
+}
+
+
+/* ######### END nav-left ######### */
+
+
+/* ######### nav-fill ######### */
+
+.nav-fill {
+  width: 59%;
+  align-items: center;
+  /* margin: 0 40px; */
+}
+
+.nav-fill-form {
+  justify-content: space-between;
+}
+
+.nav-fill .allCategories {
+  background-color: #e6e6e6;
+  color: #555;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.nav-fill .allCategories:hover {
+  background-color: #bbbbbb;
+  color: #000;
+}
+
+.searchInput {
+  height: 40px;
+  border: none;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.nav-fill button {
+height: 40px;
+border: none;
+border-radius: 0 5px 5px 0;
+padding: 0 10px;
+background-color: #febd69;
+cursor: pointer;
+}
+
+.nav-fill button svg {
+  /* size: 50px; */
+}
+
+
+/* ######### END nav-fill ######### */
+
+
+/* ######### nav-right ######### */
+.nav-right {
+  gap: 10px;
+  justify-content: end;
+  align-items: end;
+}
+
+.nav-right a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-line-1 {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.nav-line-2 {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #fff;
+  /* display: flex;
+  align-items: center; */
+}
+
+.cart {
+  position: relative;
+}
+
+.cart-count-items {
+  position: absolute;
+  top: -4px;
+  left: 12px;
+  background-color: #131921;
+  color: #f08804;
+  font-size: 16px;
+  font-weight: 900;
+}
+/* ######### END nav-right ######### */

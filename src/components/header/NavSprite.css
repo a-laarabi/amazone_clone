@@ -1,0 +1,29 @@
+.nav-sprite {
+  background-color: #232f3e;
+  padding: 10px 25px;
+}
+
+.nav-sprite * {
+  color: #fff;
+}
+
+.nav-sprite .nav-left {
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.nav-sprite .nav-left svg {
+  margin-right: 5px;
+}
+
+.nav-sprite .nav-fill {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-sprite .nav-fill a {
+  font-size: 14px;
+  font-weight: 600;
+}
