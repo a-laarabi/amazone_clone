@@ -1,0 +1,24 @@
+/* .heroSlider {
+
+}
+
+.heroSliderItem {
+  
+} */
+
+.heroSliderItem img {
+  width: 100%;
+}
+
+.btnMoveSlid {
+  position: absolute;
+  top: 200px;
+}
+
+.btnNext {
+  left: 30px;
+}
+
+.btnprev {
+  right: 30px;
+}
